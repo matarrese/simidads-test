@@ -1,0 +1,22 @@
+<VAST xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" version="3.0">
+<Ad id="simid_resize_poc">
+<InLine>
+<AdSystem>SampleAdSystem</AdSystem>
+<AdTitle>Linear SIMID Resize POC</AdTitle>
+<Description>SIMID Linear Video Ad for Resize POC</Description>
+<Error>https://www.example.com/error</Error>
+<Impression>https://www.example.com/impression</Impression>
+<Creatives>
+<Creative sequence="1">
+<Linear>
+<Duration>00:00:30</Duration>
+<MediaFiles>
+<MediaFile delivery="progressive" type="video/mp4" width="640" height="480">https://storage.googleapis.com/simidads/shoppable/pixel/google_pixel_ad.mp4</MediaFile>
+<InteractiveCreativeFile type="text/html" apiFramework="SIMID" variableDuration="true"> https://storage.googleapis.com/simidads/simid_resize_poc/simid_resize_poc.html </InteractiveCreativeFile>
+</MediaFiles>
+</Linear>
+</Creative>
+</Creatives>
+</InLine>
+</Ad>
+</VAST>
