@@ -12,7 +12,7 @@
 <Duration>00:00:30</Duration>
 <MediaFiles>
 <MediaFile delivery="progressive" type="video/mp4" width="640" height="480">https://storage.googleapis.com/simidads/shoppable/pixel/google_pixel_ad.mp4</MediaFile>
-<InteractiveCreativeFile type="text/html" apiFramework="SIMID" variableDuration="true"> https://storage.googleapis.com/simidads/simid_resize_poc/simid_resize_poc.html </InteractiveCreativeFile>
+<InteractiveCreativeFile type="text/html" apiFramework="SIMID" variableDuration="true">https://raw.githubusercontent.com/matarrese/simidads-test/refs/heads/main/simid_resize_poc.html</InteractiveCreativeFile>
 </MediaFiles>
 </Linear>
 </Creative>
